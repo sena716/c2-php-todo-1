@@ -1,3 +1,7 @@
+/* /////////////////////////////////////////////////////////////////
+カスタマイズ　一番最後の行
+///////////////////////////////////////////////////////////////// */
+
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
@@ -64,6 +68,7 @@ section {
   display: block;
 }
 
+/* デザイン　カスタム */
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -73,6 +78,9 @@ body {
   color: #212529;
   text-align: left;
   background-color: #f8fafc;
+
+
+
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10903,3 +10911,29 @@ a.text-dark:focus {
   }
 }
 
+body{
+  background-color: #000;
+}
+
+th,td{
+  color: #fff;
+}
+
+.text-muted{
+  color: #fff;
+}
+
+.btn-danger{
+  display: flex;
+  width: 100px;
+}
+
+.btn-success{
+  display: flex;
+  width: 100px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
